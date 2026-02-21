@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakhriel · Web Development</title>
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar with theme toggle -->
+    <nav>
+        <a href="#home" aria-label="home">Home</a>
+        <a href="#portfolio" aria-label="project & stack">Work & Stack</a>
+        <a href="#about" aria-label="about">About</a>
+        <a href="#contact" aria-label="contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section (two-column layout) -->
+    <section class="hero" id="home">
+        <div class="hero-content reveal">
+            <!-- Left: Text -->
+            <div class="hero-text">
+                <div class="hero-name">
+                    <h1>Fakhriel</h1>
+                    <div class="title">Web Development</div>
+                    <div class="subtitle">Hello !</div>
+                </div>
+                <p class="hero-description">
+                    Specializing in Web Development
+                </p>
+                <!-- Single Typewriter -->
+                <div class="hero-typewriter">
+                    <span class="typewriter-prefix">I craft experiences in</span>
+                    <span class="auto-text" data-texts='["Web3 & Blockchain","UI/UX Design","Brand Strategy","Creative Direction"]'></span>
+                </div>
+            </div>
+            <!-- Right: Large Logo -->
+            <div class="hero-logo-large">
+                <img src="assets/POTOPROFIL-removebg-preview.webp" alt="Fakhriel Logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Double Animated Text Marquee -->
+    <div class="double-marquee">
+        <div class="marquee-top">
+            <div class="marquee-track">
+                <span class="marquee-item">• Creative Direction</span> <span class="marquee-item">• Brand Strategy</span> <span class="marquee-item">• Web3 Innovation</span> <span class="marquee-item">• Visual Design</span> <span class="marquee-item">• UI/UX</span> <span class="marquee-item">• Motion Graphics</span> <span class="marquee-item">• Blockchain</span> <span class="marquee-item">• NFT</span> <span class="marquee-item">• Metaverse</span> <span class="marquee-item">• Creative Direction</span> <span class="marquee-item">• Brand Strategy</span> <span class="marquee-item">• Web3 Innovation</span> <span class="marquee-item">• Visual Design</span> <span class="marquee-item">• UI/UX</span> <span class="marquee-item">• Motion Graphics</span> <span class="marquee-item">• Blockchain</span> <span class="marquee-item">• NFT</span> <span class="marquee-item">• Metaverse</span>
+            </div>
+        </div>
+        <div class="marquee-bottom">
+            <div class="marquee-track reverse">
+                <span class="marquee-item">• Minimalist Luxury</span> <span class="marquee-item">• Digital Experiences</span> <span class="marquee-item">• Product Strategy</span> <span class="marquee-item">• Creative Coding</span> <span class="marquee-item">• Web Development</span> <span class="marquee-item">• Design Systems</span> <span class="marquee-item">• Animation</span> <span class="marquee-item">• Prototyping</span> <span class="marquee-item">• User Research</span> <span class="marquee-item">• Minimalist Luxury</span> <span class="marquee-item">• Digital Experiences</span> <span class="marquee-item">• Product Strategy</span> <span class="marquee-item">• Creative Coding</span> <span class="marquee-item">• Web Development</span> <span class="marquee-item">• Design Systems</span> <span class="marquee-item">• Animation</span> <span class="marquee-item">• Prototyping</span> <span class="marquee-item">• User Research</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="container portfolio-section" id="portfolio">
+        <h2 class="section-title reveal">Featured Works</h2>
+        <p class="section-subtitle reveal">Explore my projects and technical expertise</p>
+        
+        <div class="tab-container reveal">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="techstack">Tech Stack</button>
+            </div>
+            
+            <!-- Projects Tab -->
+            <div id="projects" class="tab-content active">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Project 1 -->
+                        <div class="project-slide">
+                            <div class="project-image">
+                                <img src="assets/urproject.webp" alt="Brand Identity" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3>Brand Identity System</h3>
+                                <p>Complete brand identity system for a luxury fashion brand, including logo design, color palette, typography, and brand guidelines.</p>
+                                <div class="project-tech">
+                                    <span>Figma</span> <span>Illustrator</span> <span>After Effects</span> <span>Brand Strategy</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div class="project-slide">
+                            <div class="project-image">
+                                <img src="assets/urproject.webp" alt="Web3 DApp" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3>Web3 NFT Marketplace</h3>
+                                <p>Decentralized NFT marketplace built with React, Solidity, and IPFS. Features include minting, buying, and selling NFTs with crypto payments.</p>
+                                <div class="project-tech">
+                                    <span>React</span> <span>Solidity</span> <span>Web3.js</span> <span>IPFS</span> <span>Ethereum</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="project-slide">
+                            <div class="project-image">
+                                <img src="assets/urproject.webp" alt="Motion Design" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3>Cinematic Motion Graphics</h3>
+                                <p>Series of cinematic motion graphics for tech product launches. Includes UI animations, 3D elements, and visual effects for video content.</p>
+                                <div class="project-tech">
+                                    <span>After Effects</span> <span>Cinema 4D</span> <span>Premiere Pro</span> <span>3D Animation</span> <span>Visual Effects</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link"><i class="fab fa-youtube"></i> Watch Video</a>
+                                    <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i> Project Files</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carousel Navigation -->
+                    <div class="carousel-nav">
+                        <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <div class="carousel-dots">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                        <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Stack Tab -->
+            <div id="techstack" class="tab-content">
+                <div class="tech-grid">
+                    <div class="tech-item"><img src="assets/logotechstack/logoreact.webp" alt="React" class="tech-icon"><span>React</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logonextjs.webp" alt="Next.js" class="tech-icon"><span>Next.js</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logotypescript.webp" alt="TypeScript" class="tech-icon"><span>TypeScript</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logojs.webp" alt="JavaScript" class="tech-icon"><span>JavaScript</span></div>
+                    <div class="tech-item"><img src="foto-foto/techstaklogo/logosupabase.webp" alt="Supabase" class="tech-icon"><span>Supabase</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logonodejs.webp" alt="Node.js" class="tech-icon"><span>Node.js</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logomongodb.webp" alt="MongoDB" class="tech-icon"><span>MongoDB</span></div>
+                    <div class="tech-item"><img src="assets/logotechstack/logotailwindcss.webp" alt="Tailwind CSS" class="tech-icon"><span>Tailwind CSS</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (dengan tipografi lebih hierarkis) -->
+    <section class="container" id="about">
+        <h2 class="section-title reveal">About Fakhriel</h2>
+        <div class="about-content">
+            <div class="about-text reveal">
+                <h2>Creative Vision Meets Technical Excellence</h2>
+                <p>With over a decade of experience in visual storytelling and brand strategy, I specialize in creating immersive digital experiences that resonate with modern audiences.</p>
+                <p>My approach combines cinematic aesthetics with cutting-edge technology, particularly in the Web3 space, to deliver solutions that are not only visually stunning but also functionally superior.</p>
+                <p>Every project is an opportunity to push creative boundaries while maintaining the highest standards of craftsmanship and attention to detail.</p>
+            </div>
+            <div class="about-profile reveal">
+                <div class="profile-container">
+                    <img src="assets/POTOPROFIL-removebg-preview.webp" alt="Fakhriel Profile Photo" class="profile-photo grayscale">
+                    <div class="profile-overlay">
+                        <div class="profile-info">
+                            <h3>Fakhriel Yusmana Shiddiq</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with FormSubmit integration -->
+    <section class="container" id="contact">
+        <h2 class="section-title reveal">Let's Connect</h2>
+        <p class="section-subtitle reveal">Ready to bring your vision to life? Get in touch for collaborations and creative partnerships.</p>
+        
+        <form class="contact-form reveal" action="https://formsubmit.co/fakhrielyusmanashiddiq@gmail.com" method="POST">
+            <!-- FormSubmit options -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New message from portfolio!">
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p>© 2026 Fakhriel Yusmana Shiddiq. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
