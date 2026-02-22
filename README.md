@@ -19,7 +19,7 @@ A modern, clean, and fully responsive portfolio template for creative profession
 
 ## 🚀 Demo
 
-[Live Demo Link](https://your-demo-link.com)
+[Live Demo Link](https://fakhriel.github.io/Free-landing-page-portfolio/)
 
 ## 📋 Sections
 
@@ -149,5 +149,6 @@ Twitter: @fakhrielyusmanashiddiq
 
 🐛 Bug Reports
 If you find any bugs or have suggestions, please open an issue on GitHub.
+
 
 Happy coding! 🚀
